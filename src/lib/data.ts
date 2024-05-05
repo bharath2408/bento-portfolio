@@ -1,43 +1,15 @@
-import { IExperienceData, IProjectData } from './types';
 import imgDailyCalories from '../../public/dailycalories.png';
+import { IExperienceData, IProjectData } from './types';
 
 export const options: string[] = ['all', 'about', 'projects'];
 
 export const experienceData: IExperienceData[] = [
   {
     id: 1,
-    title: 'Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka',
-    subtitle: 'Cloud Computing',
-    desc: 'I am collaborated with a team to create a capstone project, an intuitive machine learning application capable of accurately calculating the calories in food photos. Serving as an API integrated with Firebase and deployed on Google Cloud with Cloud Balancing, our project seamlessly combines machine learning prowess with efficient cloud-based solutions.',
-    time: 'Feb 2021 - Jul 2021',
-  },
-  {
-    id: 2,
-    title: 'Bootcamp Fullstack Engineering By Alterra Academy',
-    subtitle: 'Fullstack Engineering',
-    desc: 'Built a capstone project, the Calories Tracker & Hospital Management System, with a Golang backend serving as a RESTful API and a ReactJS frontend. The backend, powered by Golang, ensures efficiency, while the ReactJS frontend provides a user-friendly interface for tracking calories and managing hospital-related information.',
-    time: 'Aug 2021 - Jan 2022',
-  },
-  {
-    id: 3,
-    title: 'Bootcamp Frontend Developer By Binar Academy',
-    subtitle: 'Frontend Developer',
-    desc: 'Exploring frontend development with a stack comprising NodeJS, EJS, ReactJS, and NextJS. The focus is on a capstone project, a frontend application for car booking. The aim is to gain hands-on experience in building a user-friendly car booking interface while mastering the intricacies of these frontend technologies.',
-    time: 'Feb 2022 - Jul 2022',
-  },
-  {
-    id: 4,
-    title: 'PT. Unzypsoft',
-    subtitle: 'Frontend Developer',
-    desc: 'Responsible for maintaining and enhancing the functionality of the existing website, crafting a compelling company profile, and developing an e-commerce platform. As a frontend developer, the role involves ensuring the smooth operation of the current website, optimizing its performance, and implementing updates. (Last Stack Using ReactJS & NextJS)',
-    time: 'Jun 2022 - August 2022',
-  },
-  {
-    id: 5,
     title: 'PT. Fatiha Sakti',
-    subtitle: 'Frontend SAAS Developer',
+    subtitle: 'Frontend  Developer',
     desc: 'Tasked with the development and upkeep of Human Resources Information System (HRIS) and attendance applications, including improvement key features, redesign, troubleshooting and resolving bugs. Additionally, responsible for enhancing the features of Key Performance Index (KPI) automation applications (Last Stack Using JQuery & PHP)',
-    time: 'Oct 2022 - Present',
+    time: 'Aug 2023 - Present',
   },
 ];
 

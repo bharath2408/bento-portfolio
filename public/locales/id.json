@@ -3,9 +3,9 @@
     "language": "indonesia"
   },
   "about": {
-    "intro": "Saya",
-    "name": "adit",
-    "description": "seorang Pengembang Frontend yang berdedikasi dengan perjalanan selama dua tahun yang dinamis di ranah pengembangan web."
+    "intro": "நான்",
+    "name": "பரத குமார்",
+    "description": "ஒரு பிரத்யேக ஃபிரண்டெண்ட் டெவலப்பர், இணைய மேம்பாட்டின் ஆற்றல்மிக்க துறையில் இரண்டு துடிப்பான வருடங்கள் பயணம் செய்கிறேன்."
   },
   "navigation": {
     "all": "semua",
@@ -51,6 +51,6 @@
     }
   ],
   "footer": {
-    "versionOne": " Versi Satu"
+    "version": " Versi Satu"
   }
 }
