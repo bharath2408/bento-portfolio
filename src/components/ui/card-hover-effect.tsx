@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import { ReactNode, useState } from 'react';
+import { FaGitAlt } from 'react-icons/fa';
 import { HiViewGridAdd } from 'react-icons/hi';
 import { SiGo, SiJavascript, SiSwift, SiTypescript } from 'react-icons/si';
 
@@ -118,7 +119,8 @@ export const HoverEffect = ({
                 <div className="flex flex-row items-center gap-x-2">
                   <div className="">
                     <div className="">
-                      {languageIcons[item?.language?.toLowerCase()]}
+                      {languageIcons[item?.language?.toLowerCase()]} ||
+                      <FaGitAlt className=" h-8 w-8 text-orange-600" />
                     </div>
                   </div>
                   <div>
