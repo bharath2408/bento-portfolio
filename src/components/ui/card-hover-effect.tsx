@@ -8,6 +8,7 @@ import { FaGitAlt } from 'react-icons/fa';
 import { HiViewGridAdd } from 'react-icons/hi';
 import {
   SiGo,
+  SiHtml5,
   SiJavascript,
   SiJupyter,
   SiPython,
@@ -35,6 +36,7 @@ const languageIcons: ILanguageIcons = {
   swift: <SiSwift className=" h-8 w-8 text-orange-600" />,
   go: <SiGo className="h-8 w-8 text-pallet-blue-1" />,
   jupyternotebook: <SiJupyter className="h-8 w-8 text-orange-600" />,
+  html: <SiHtml5 className="h-8 w-8 text-orange-600" />,
 };
 
 const stagger = {
