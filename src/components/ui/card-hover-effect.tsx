@@ -119,8 +119,9 @@ export const HoverEffect = ({
                 <div className="flex flex-row items-center gap-x-2">
                   <div className="">
                     <div className="">
-                      {languageIcons[item?.language?.toLowerCase()]} ||
-                      <FaGitAlt className=" h-8 w-8 text-orange-600" />
+                      {languageIcons[item?.language?.toLowerCase()] || (
+                        <FaGitAlt className=" h-8 w-8 text-orange-600" />
+                      )}
                     </div>
                   </div>
                   <div>
