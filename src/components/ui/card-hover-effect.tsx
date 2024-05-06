@@ -6,7 +6,13 @@ import Link from 'next/link';
 import { ReactNode, useState } from 'react';
 import { FaGitAlt } from 'react-icons/fa';
 import { HiViewGridAdd } from 'react-icons/hi';
-import { SiGo, SiJavascript, SiSwift, SiTypescript } from 'react-icons/si';
+import {
+  SiGo,
+  SiJavascript,
+  SiPython,
+  SiSwift,
+  SiTypescript,
+} from 'react-icons/si';
 
 interface IRepoGithub {
   id: number;
@@ -24,6 +30,7 @@ interface ILanguageIcons {
 const languageIcons: ILanguageIcons = {
   typescript: <SiTypescript className="h-8 w-8 text-pallet-blue-1" />,
   javascript: <SiJavascript className="h-8 w-8 text-yellow-300" />,
+  Python: <SiPython className="h-8 w-8 text-yellow-300" />,
   swift: <SiSwift className=" h-8 w-8 text-orange-600" />,
   go: <SiGo className="h-8 w-8 text-pallet-blue-1" />,
 };
