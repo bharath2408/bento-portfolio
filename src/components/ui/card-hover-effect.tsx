@@ -30,7 +30,7 @@ interface ILanguageIcons {
 const languageIcons: ILanguageIcons = {
   typescript: <SiTypescript className="h-8 w-8 text-pallet-blue-1" />,
   javascript: <SiJavascript className="h-8 w-8 text-yellow-300" />,
-  Python: <SiPython className="h-8 w-8 text-yellow-300" />,
+  python: <SiPython className="h-8 w-8 text-yellow-300" />,
   swift: <SiSwift className=" h-8 w-8 text-orange-600" />,
   go: <SiGo className="h-8 w-8 text-pallet-blue-1" />,
 };
