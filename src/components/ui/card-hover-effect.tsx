@@ -9,6 +9,7 @@ import { HiViewGridAdd } from 'react-icons/hi';
 import {
   SiGo,
   SiJavascript,
+  SiJupyter,
   SiPython,
   SiSwift,
   SiTypescript,
@@ -33,6 +34,7 @@ const languageIcons: ILanguageIcons = {
   python: <SiPython className="h-8 w-8 text-yellow-300" />,
   swift: <SiSwift className=" h-8 w-8 text-orange-600" />,
   go: <SiGo className="h-8 w-8 text-pallet-blue-1" />,
+  jupyternotebook: <SiJupyter className="h-8 w-8 text-orange-600" />,
 };
 
 const stagger = {
@@ -126,9 +128,9 @@ export const HoverEffect = ({
                 <div className="flex flex-row items-center gap-x-2">
                   <div className="">
                     <div className="">
-                      {languageIcons[item?.language?.toLowerCase()] || (
-                        <FaGitAlt className=" h-8 w-8 text-orange-600" />
-                      )}
+                      {languageIcons[
+                        item?.language?.toLowerCase()?.split(' ')?.join('')
+                      ] || <FaGitAlt className=" h-8 w-8 text-orange-600" />}
                     </div>
                   </div>
                   <div>
