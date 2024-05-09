@@ -18,7 +18,7 @@ const socialMediaList: IListSocialMedia[] = [
   },
   {
     icon: <Linkedin />,
-    link: 'https://www.linkedin.com/in/adityahimaone',
+    link: 'https://www.linkedin.com/in',
     text: 'Linkedin',
     color: 'pallet-blue-4',
     borderColor: 'border-pallet-blue-3',
